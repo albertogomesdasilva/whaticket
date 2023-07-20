@@ -35,11 +35,12 @@ system_git_clone() {
   sleep 2
 
   sudo su - deploy <<EOF
-  git clone https://github.com/albertogomesdasilva/whaticket
+  git clone https://github.com/albertogomesdasilva/whaticket /home/deploy/whaticket/
 EOF
 
   sleep 2
 }
+#######################################
 
 #######################################
 # updates system
